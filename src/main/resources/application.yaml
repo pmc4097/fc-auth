@@ -11,3 +11,13 @@ spring:
     url: jdbc:mysql://localhost:3306/fc_auth?useUnicode=true&serverTimezone=Asia/Seoul
     username: root
     password: 1234
+
+kakao:
+  client_id: dfe29b09b9fc874f78cce0b046cc698a
+  redirect_url: http://localhost:8080/kakao/callback
+  secret: LWvpXiyw5Ip95a2ATtGg11NFCqIeRuxr
+jwt:
+  secret-key: X2NyYXNoX3NlcnZpY2Vfc3VwZXJfc2VjcmV0X2tleS0=
+
+ # 클라이언트 시크릿 LWvpXiyw5Ip95a2ATtGg11NFCqIeRuxr
+ # REST API 키 dfe29b09b9fc874f78cce0b046cc698a
